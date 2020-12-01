@@ -4,9 +4,9 @@ public class VisitorTest {
 		TaxVisitor taxCalc = new TaxVisitor();
 		TaxHolidayVisitor taxHolidayCalc = new TaxHolidayVisitor();
 		
-		Fruits banana = new Fruits(3.47);
-		Vegetables carrots = new Vegetables(11.99);
-		Clothes dress = new Clothes(19.99);
+		Fruits banana = new Fruits(13);
+		Vegetables carrots = new Vegetables(10);
+		Clothes dress = new Clothes(30);
 		
 		System.out.println(banana.accept(taxCalc) + "\n");
 		System.out.println(carrots.accept(taxCalc) + "\n");
